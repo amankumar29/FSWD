@@ -1,16 +1,12 @@
-// import StatePractise from "./Component/StatePractise";
-
-import StatePrac2 from "./Component/StatePrac2";
-
+// import ClassComp from "./Revision/ClassComp";
+import FuncComp from "./Revision/FuncComp";
 
 function App() {
   return (
   <>
-  {/* <StatePractise/> */}
-  <StatePrac2/>
-  <h1>Hello</h1>  
+  {/* <ClassComp /> */}
+  <FuncComp />
   </>
   );
 }
-
 export default App;
