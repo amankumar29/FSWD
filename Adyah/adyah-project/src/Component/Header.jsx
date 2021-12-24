@@ -6,11 +6,9 @@ const Header = () =>{
         <header>
            <nav>
                <div>
+                   <img src="./img/logo.png" alt="img" width="150px" />
                    <h2>
-                       <span>A</span>dyah 
-                       <span>B</span>uilders 
-                       <span>&</span>  
-                       <span>D</span>evelopers 
+                       Adyah Builders & Developers
                    </h2>
                    <Link to ="Home">Home </Link>
                    <Link to ="About">About </Link>

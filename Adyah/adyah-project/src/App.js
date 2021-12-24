@@ -9,7 +9,8 @@ import Contact from "./Component/Contact";
 function App() {
   return (
     <>
-    <BrowserRouter>    <Header />
+    <BrowserRouter>
+        <Header />
     <Routes>
       <Route path ="/Home" element = {<Home/>} />
       <Route path ="/About" element = {<About/>} />
@@ -17,7 +18,7 @@ function App() {
       <Route path ="/Contact" element = {<Contact/>}/>
     </Routes>
     </BrowserRouter>
-  {/* <Header /> */}
+  
     </>
   );
 }
