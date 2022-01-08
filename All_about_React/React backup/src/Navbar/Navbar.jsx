@@ -6,10 +6,9 @@ class Navbar extends React.Component{
             <>
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <h3>React Routing</h3>
-            <Link to="Home" className="nav-link"> Home</Link>
-            <Link to="Axios" className="nav-link"> Axios</Link>
-            <Link to="FormHandling" className="nav-link"> Form Handling </Link>
+            <h1>Task</h1>
+            <Link to="Task" className="nav-link"> Task</Link>
+            
             </nav>
             </div>
             </>
